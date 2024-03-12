@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "667522263901",
+    "project_id": "unitrade-5b903",
+    "storage_bucket": "unitrade-5b903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667522263901:android:aaf504fdab65db91a356b4",
+        "android_client_info": {
+          "package_name": "com.example.uni_trade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667522263901-791ggsjgr721da0clp1vqkv4um5vhora.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiEY8YN8O-tVjvoCgdjR8dn_n011OFrSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667522263901-791ggsjgr721da0clp1vqkv4um5vhora.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "667522263901-frnrdvh94lvmlub8e93580p9j84r8rcf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.uniTrade.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
