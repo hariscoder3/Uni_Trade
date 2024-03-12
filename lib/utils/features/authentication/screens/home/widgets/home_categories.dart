@@ -20,7 +20,7 @@ class THomeCategories extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         itemBuilder: (_, index) {
           return TVerticalImageText(
-            image: "assets/icons/book.png",
+            image: "assets/icons/smartphone.png",
             title: 'Mobile Phones',
             onTap: () => Get.to(() => const SubCategoriesScreen()),
             textColor: TColors.black,

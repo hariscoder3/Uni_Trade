@@ -17,27 +17,29 @@ class ProductsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('My Products'),
       ),
-      body: Column(
-        // mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          /// Products
-          Obx(() {
-            if (controller.isLoading.value) {
-              return const TVerticalProductShimmer();
-            }
-            if (controller.featuredProductsUser.isEmpty) {
-              return Center(
-                  child: Text('No Data Found!',
-                      style: Theme.of(context).textTheme.bodyMedium));
-            }
-            return TGridLayout(
-              itemCount: controller.featuredProductsUser.length,
-              itemBuilder: (_, index) => TProductCardVerticalUser(
-                  product: controller.featuredProductsUser[index]),
-            );
-            // TGrid Layout
-          }), //Obx
-        ], // Children
+      body: SingleChildScrollView(
+        child: Column(
+          // mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            /// Products
+            Obx(() {
+              if (controller.isLoading.value) {
+                return const TVerticalProductShimmer();
+              }
+              if (controller.featuredProductsUser.isEmpty) {
+                return Center(
+                    child: Text('No Data Found!',
+                        style: Theme.of(context).textTheme.bodyMedium));
+              }
+              return TGridLayout(
+                itemCount: controller.featuredProductsUser.length,
+                itemBuilder: (_, index) => TProductCardVerticalUser(
+                    product: controller.featuredProductsUser[index]),
+              );
+              // TGrid Layout
+            }), //Obx
+          ], // Children
+        ),
       ),
     );
   }
