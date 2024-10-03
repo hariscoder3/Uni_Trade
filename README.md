@@ -1,6 +1,6 @@
 # uni_trade
 
-A Final Year Flutter project.
+A Final Year Flutter project with ML involved.
 
 ## Getting Started
 
