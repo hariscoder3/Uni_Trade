@@ -1,6 +1,6 @@
 # uni_trade
 
-A new Flutter project.
+A Final Year Flutter project integrated with recommendation system, NLP in chat system and also include bidding mechanism.
 
 ## Getting Started
 
