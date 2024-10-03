@@ -1,6 +1,6 @@
 # uni_trade
 
-A new Flutter project.
+A Final Year Flutter project.
 
 ## Getting Started
 
